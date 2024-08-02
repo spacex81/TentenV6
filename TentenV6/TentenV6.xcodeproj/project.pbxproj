@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84E4E112C539ECF00FB4433 /* TentenV6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E4E102C539ECF00FB4433 /* TentenV6App.swift */; };
+		C84E4E152C539ED000FB4433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84E4E142C539ED000FB4433 /* Assets.xcassets */; };
+		C84E4E182C539ED000FB4433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84E4E172C539ED000FB4433 /* Preview Assets.xcassets */; };
+		C84E4E222C539F3400FB4433 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C84E4E212C539F3400FB4433 /* FirebaseAnalytics */; };
+		C84E4E242C539F3400FB4433 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C84E4E232C539F3400FB4433 /* FirebaseAuth */; };
+		C84E4E262C539F3400FB4433 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C84E4E252C539F3400FB4433 /* FirebaseFirestore */; };
+		C84E4E282C539F3400FB4433 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C84E4E272C539F3400FB4433 /* FirebaseFunctions */; };
+		C84E4E2A2C539F3400FB4433 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C84E4E292C539F3400FB4433 /* FirebaseStorage */; };
+		C84E4E2F2C539FA000FB4433 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C84E4E2E2C539FA000FB4433 /* GoogleService-Info.plist */; };
+		C84E4E312C539FA900FB4433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E4E302C539FA900FB4433 /* AppDelegate.swift */; };
+		C86344BD2C53C81A007785AE /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = C86344BC2C53C81A007785AE /* test.wav */; };
+		C89676B92C5D065E00745586 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = C89676B82C5D065E00745586 /* WebRTC */; };
+		C8E271C42C5789D20039B481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271C32C5789D20039B481 /* ContentView.swift */; };
+		C8E271CA2C579B5D0039B481 /* LiveKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271C92C579B5D0039B481 /* LiveKitManager.swift */; };
+		C8E271CC2C579B640039B481 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271CB2C579B640039B481 /* BackgroundTaskManager.swift */; };
+		C8E271D22C579C520039B481 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271D12C579C520039B481 /* FirebaseManager.swift */; };
+		C8E271D42C57B4B10039B481 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271D32C57B4B10039B481 /* HomeView.swift */; };
+		C8E271D62C57B4B80039B481 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271D52C57B4B80039B481 /* AuthView.swift */; };
+		C8E271D82C57B9800039B481 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271D72C57B9800039B481 /* UserModel.swift */; };
+		C8E271DA2C57C5290039B481 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271D92C57C5290039B481 /* ImagePicker.swift */; };
+		C8E271DC2C57C69E0039B481 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271DB2C57C69E0039B481 /* AuthViewModel.swift */; };
+		C8E271DE2C57CF390039B481 /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271DD2C57CF390039B481 /* AddFriendView.swift */; };
+		C8E271E02C57CF580039B481 /* AddFriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271DF2C57CF580039B481 /* AddFriendViewModel.swift */; };
+		C8E271E22C57D61B0039B481 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271E12C57D61B0039B481 /* HomeViewModel.swift */; };
+		C8E271E82C589E9F0039B481 /* CustomAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E271E72C589E9F0039B481 /* CustomAudioManager.swift */; };
+		C8E271EB2C58B1F40039B481 /* LiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = C8E271EA2C58B1F40039B481 /* LiveKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C84E4E0D2C539ECF00FB4433 /* TentenV6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TentenV6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E4E102C539ECF00FB4433 /* TentenV6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentenV6App.swift; sourceTree = "<group>"; };
+		C84E4E142C539ED000FB4433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C84E4E172C539ED000FB4433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C84E4E1E2C539EE500FB4433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C84E4E1F2C539EE800FB4433 /* TentenV6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TentenV6.entitlements; sourceTree = "<group>"; };
+		C84E4E2E2C539FA000FB4433 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C84E4E302C539FA900FB4433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C86344BC2C53C81A007785AE /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		C8E271C32C5789D20039B481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8E271C92C579B5D0039B481 /* LiveKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveKitManager.swift; sourceTree = "<group>"; };
+		C8E271CB2C579B640039B481 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		C8E271D12C579C520039B481 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		C8E271D32C57B4B10039B481 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C8E271D52C57B4B80039B481 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		C8E271D72C57B9800039B481 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C8E271D92C57C5290039B481 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C8E271DB2C57C69E0039B481 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C8E271DD2C57CF390039B481 /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		C8E271DF2C57CF580039B481 /* AddFriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewModel.swift; sourceTree = "<group>"; };
+		C8E271E12C57D61B0039B481 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C8E271E72C589E9F0039B481 /* CustomAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAudioManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84E4E0A2C539ECF00FB4433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84E4E222C539F3400FB4433 /* FirebaseAnalytics in Frameworks */,
+				C84E4E242C539F3400FB4433 /* FirebaseAuth in Frameworks */,
+				C84E4E262C539F3400FB4433 /* FirebaseFirestore in Frameworks */,
+				C89676B92C5D065E00745586 /* WebRTC in Frameworks */,
+				C8E271EB2C58B1F40039B481 /* LiveKit in Frameworks */,
+				C84E4E2A2C539F3400FB4433 /* FirebaseStorage in Frameworks */,
+				C84E4E282C539F3400FB4433 /* FirebaseFunctions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84E4E042C539ECF00FB4433 = {
+			isa = PBXGroup;
+			children = (
+				C84E4E0F2C539ECF00FB4433 /* TentenV6 */,
+				C84E4E0E2C539ECF00FB4433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84E4E0E2C539ECF00FB4433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84E4E0D2C539ECF00FB4433 /* TentenV6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84E4E0F2C539ECF00FB4433 /* TentenV6 */ = {
+			isa = PBXGroup;
+			children = (
+				C8E271C52C579B200039B481 /* View */,
+				C8E271C62C579B250039B481 /* ViewModel */,
+				C8E271C82C579B480039B481 /* Model */,
+				C8E271C72C579B2A0039B481 /* Manager */,
+				C84E4E1F2C539EE800FB4433 /* TentenV6.entitlements */,
+				C84E4E1E2C539EE500FB4433 /* Info.plist */,
+				C84E4E102C539ECF00FB4433 /* TentenV6App.swift */,
+				C84E4E302C539FA900FB4433 /* AppDelegate.swift */,
+				C84E4E142C539ED000FB4433 /* Assets.xcassets */,
+				C84E4E2E2C539FA000FB4433 /* GoogleService-Info.plist */,
+				C84E4E162C539ED000FB4433 /* Preview Content */,
+				C86344BC2C53C81A007785AE /* test.wav */,
+			);
+			path = TentenV6;
+			sourceTree = "<group>";
+		};
+		C84E4E162C539ED000FB4433 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C84E4E172C539ED000FB4433 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8E271C52C579B200039B481 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8E271C32C5789D20039B481 /* ContentView.swift */,
+				C8E271D32C57B4B10039B481 /* HomeView.swift */,
+				C8E271D52C57B4B80039B481 /* AuthView.swift */,
+				C8E271D92C57C5290039B481 /* ImagePicker.swift */,
+				C8E271DD2C57CF390039B481 /* AddFriendView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8E271C62C579B250039B481 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C8E271DB2C57C69E0039B481 /* AuthViewModel.swift */,
+				C8E271DF2C57CF580039B481 /* AddFriendViewModel.swift */,
+				C8E271E12C57D61B0039B481 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C8E271C72C579B2A0039B481 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C8E271C92C579B5D0039B481 /* LiveKitManager.swift */,
+				C8E271CB2C579B640039B481 /* BackgroundTaskManager.swift */,
+				C8E271D12C579C520039B481 /* FirebaseManager.swift */,
+				C8E271E72C589E9F0039B481 /* CustomAudioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C8E271C82C579B480039B481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8E271D72C57B9800039B481 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84E4E0C2C539ECF00FB4433 /* TentenV6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84E4E1B2C539ED000FB4433 /* Build configuration list for PBXNativeTarget "TentenV6" */;
+			buildPhases = (
+				C84E4E092C539ECF00FB4433 /* Sources */,
+				C84E4E0A2C539ECF00FB4433 /* Frameworks */,
+				C84E4E0B2C539ECF00FB4433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TentenV6;
+			packageProductDependencies = (
+				C84E4E212C539F3400FB4433 /* FirebaseAnalytics */,
+				C84E4E232C539F3400FB4433 /* FirebaseAuth */,
+				C84E4E252C539F3400FB4433 /* FirebaseFirestore */,
+				C84E4E272C539F3400FB4433 /* FirebaseFunctions */,
+				C84E4E292C539F3400FB4433 /* FirebaseStorage */,
+				C8E271EA2C58B1F40039B481 /* LiveKit */,
+				C89676B82C5D065E00745586 /* WebRTC */,
+			);
+			productName = TentenV6;
+			productReference = C84E4E0D2C539ECF00FB4433 /* TentenV6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84E4E052C539ECF00FB4433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C84E4E0C2C539ECF00FB4433 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C84E4E082C539ECF00FB4433 /* Build configuration list for PBXProject "TentenV6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84E4E042C539ECF00FB4433;
+			packageReferences = (
+				C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C8E271E92C58B1F40039B481 /* XCRemoteSwiftPackageReference "client-sdk-swift" */,
+				C89676B72C5D065E00745586 /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
+			productRefGroup = C84E4E0E2C539ECF00FB4433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84E4E0C2C539ECF00FB4433 /* TentenV6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84E4E0B2C539ECF00FB4433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86344BD2C53C81A007785AE /* test.wav in Resources */,
+				C84E4E182C539ED000FB4433 /* Preview Assets.xcassets in Resources */,
+				C84E4E152C539ED000FB4433 /* Assets.xcassets in Resources */,
+				C84E4E2F2C539FA000FB4433 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84E4E092C539ECF00FB4433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E271D22C579C520039B481 /* FirebaseManager.swift in Sources */,
+				C8E271D42C57B4B10039B481 /* HomeView.swift in Sources */,
+				C8E271CC2C579B640039B481 /* BackgroundTaskManager.swift in Sources */,
+				C84E4E312C539FA900FB4433 /* AppDelegate.swift in Sources */,
+				C84E4E112C539ECF00FB4433 /* TentenV6App.swift in Sources */,
+				C8E271CA2C579B5D0039B481 /* LiveKitManager.swift in Sources */,
+				C8E271DE2C57CF390039B481 /* AddFriendView.swift in Sources */,
+				C8E271E82C589E9F0039B481 /* CustomAudioManager.swift in Sources */,
+				C8E271D62C57B4B80039B481 /* AuthView.swift in Sources */,
+				C8E271DC2C57C69E0039B481 /* AuthViewModel.swift in Sources */,
+				C8E271E22C57D61B0039B481 /* HomeViewModel.swift in Sources */,
+				C8E271DA2C57C5290039B481 /* ImagePicker.swift in Sources */,
+				C8E271D82C57B9800039B481 /* UserModel.swift in Sources */,
+				C8E271C42C5789D20039B481 /* ContentView.swift in Sources */,
+				C8E271E02C57CF580039B481 /* AddFriendViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C84E4E192C539ED000FB4433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C84E4E1A2C539ED000FB4433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84E4E1C2C539ED000FB4433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TentenV6/TentenV6.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TentenV6/Preview Content\"";
+				DEVELOPMENT_TEAM = GHJU9V8GHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TentenV6/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need for Walkie Talkie ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.TentenV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84E4E1D2C539ED000FB4433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TentenV6/TentenV6.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TentenV6/Preview Content\"";
+				DEVELOPMENT_TEAM = GHJU9V8GHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TentenV6/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need for Walkie Talkie ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.TentenV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84E4E082C539ECF00FB4433 /* Build configuration list for PBXProject "TentenV6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84E4E192C539ED000FB4433 /* Debug */,
+				C84E4E1A2C539ED000FB4433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84E4E1B2C539ED000FB4433 /* Build configuration list for PBXNativeTarget "TentenV6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84E4E1C2C539ED000FB4433 /* Debug */,
+				C84E4E1D2C539ED000FB4433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+		C89676B72C5D065E00745586 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 127.0.0;
+			};
+		};
+		C8E271E92C58B1F40039B481 /* XCRemoteSwiftPackageReference "client-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/client-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C84E4E212C539F3400FB4433 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C84E4E232C539F3400FB4433 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C84E4E252C539F3400FB4433 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C84E4E272C539F3400FB4433 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C84E4E292C539F3400FB4433 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84E4E202C539F3400FB4433 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C89676B82C5D065E00745586 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C89676B72C5D065E00745586 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+		C8E271EA2C58B1F40039B481 /* LiveKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8E271E92C58B1F40039B481 /* XCRemoteSwiftPackageReference "client-sdk-swift" */;
+			productName = LiveKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C84E4E052C539ECF00FB4433 /* Project object */;
+}
